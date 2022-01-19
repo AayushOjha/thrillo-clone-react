@@ -1,0 +1,9 @@
+.contentCointainer{
+  width: 60%;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  padding-left: 100px;
+  padding: 50px 0;
+  overflow: hidden;
+}

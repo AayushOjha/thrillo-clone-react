@@ -1,0 +1,39 @@
+.heroFooter {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+  margin-top: 50px;
+  /* padding-top: 20px; */
+  /* border: 1px solid black; */
+}
+
+.footItem {
+  max-width: 25%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.iconBox {
+  margin: 5px;
+}
+.footItemText p {
+  color: #aaa;
+  font-size: small;
+  padding-left: 10px;
+}
+
+.footItem:hover .icon,
+.footItem:hover .footItemText > p {
+  color: #fff;
+}
+
+.icon{
+  font-size: 2rem;
+  color: #999;
+}

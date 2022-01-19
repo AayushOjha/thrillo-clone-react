@@ -1,0 +1,32 @@
+## Micro sites  ###
+
+Phase 1 -
+  # testing on Thrillophilia
+    * Clone Thrillophilia website (Static)
+    * Making it responsive
+    * Lode the same with help of JSON (Dynamic)
+  
+Phase 2 - 
+  # Create a form to generate JSON 
+  # Rendring website based on form data
+
+Phase 3 - 
+  # Gathering data for differnt sites
+    * GO Goa
+    * Live Laddhak
+    * more...
+  # Generalization of form/JSON (according to need of site)
+    * small front-end changes (if needed)
+
+Phase 4 -   
+  # Design of Database 
+    * deside schema for tables
+  # Connection with Database
+    * Rendering site according to request (test)
+
+Phase 5 - 
+  # Design of CMS for SEO them
+    * Creating better GUI then a simple form
+
+Phase 6 - 
+  # Testing .....

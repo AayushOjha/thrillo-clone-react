@@ -1,0 +1,117 @@
+{
+    "globalLiterals":{
+        "primaryColor":"orange",
+        "fontPrimaryColor":"black",
+        "fontSecondaryColor":"white",
+        "fontXCaptionSize":"20px",
+        "fontSmallSize":"12px",
+        "themeColor":"dark"
+    },
+    "navBar":{
+        "webSiteLogo":"thrillophilia Logo url",
+        "fontStyle":"sans-serif",
+        "fontSize":"15px",
+        "hover":{
+            "border-bottom":"1px",
+            "border-color":"orange"
+        },
+        "productItems":[
+            {
+                "title":"Gift on Experience"
+            },{
+                "title":"Logout"
+            }
+        ]
+    },
+    "theme":"light",
+
+    "Sections":[
+      {
+        "sectionType":"TOURCARD",
+        "ProductCards": [
+            {
+              "id": 1,
+              "caption": "Best of Rajasthan",
+              "products": [
+                {
+                  "tripName": "Judhpur Jaisalmer Tour Package",
+                  "tripRating": "5.0 (58 Reviews)",
+                  "tripPrice": "₹13,250",
+                  "tripCurrentPrice": "₹10,000",
+                  "tripImage": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                },
+                {
+                  "tripName": "Udaipur Roayel Tour",
+                  "tripRating": "4.7 (158 Reviews)",
+                  "tripPrice": "₹12,050",
+                  "tripCurrentPrice": "₹9,300",
+                  "tripImage": "https://images.unsplash.com/photo-1588673133509-13d815c64b5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFqYXN0aGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                },
+                {
+                  "tripName": "Judhpur Jaipur Tour Package",
+                  "tripRating": "4.1 (76 Reviews)",
+                  "tripPrice": "₹15,000",
+                  "tripCurrentPrice": "₹11,500",
+                  "tripImage": "https://cdn.pixabay.com/photo/2021/04/06/11/22/hawa-mahal-6156123__480.jpg"
+                },
+                {
+                  "tripName": "Bikaner Jaisalmer Tour Package",
+                  "tripRating": "4.5 (21 Reviews)",
+                  "tripPrice": "₹10,250",
+                  "tripCurrentPrice": "₹7,000",
+                  "tripImage": "https://image.shutterstock.com/image-photo/tourists-enjoy-elephant-ride-amer-260nw-780181144.jpg"
+                },
+                {
+                  "tripName": "Tri City Rajasthan Package",
+                  "tripRating": "5.0 (98 Reviews)",
+                  "tripPrice": "₹20,250",
+                  "tripCurrentPrice": "₹18,560",
+                  "tripImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFqYXN0aGFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "caption": "Himalayan Treks",
+              "products": [
+                {
+                  "tripName": "edarkantha Trek, Uttarakhand",
+                  "tripRating": "5.0 (58 Reviews)",
+                  "tripPrice": "₹13,250",
+                  "tripCurrentPrice": "₹10,000",
+                  "tripImage": "https://images.unsplash.com/photo-1555057918-78809fd6a368?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhpbWFsYXlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                },
+                {
+                  "tripName": "Kasol Trip and Trek to Kheerganga from Delhi",
+                  "tripRating": "4.5 (21 Reviews)",
+                  "tripPrice": "₹10,250",
+                  "tripCurrentPrice": "₹7,000",
+                  "tripImage": "https://media.istockphoto.com/photos/panoramic-59-mpix-xxxxl-size-view-of-mount-ama-dablam-in-himalayas-picture-id1223738331?b=1&k=20&m=1223738331&s=170667a&w=0&h=ABcZYIcB7WqBjNbq5QkmJ5Ax3y4mWlU4e4nGhcJVrbE="
+                },
+                {
+                  "tripName": "Premium Chadar Trek, Ladakh - Frozen River Trek",
+                  "tripRating": "4.1 (76 Reviews)",
+                  "tripPrice": "₹15,000",
+                  "tripCurrentPrice": "₹11,500",
+                  "tripImage": "https://images.unsplash.com/photo-1601618613229-ec7645fad6fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGltYWxheWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                },
+                {
+                  "tripName": "Paragliding In Bir Billing",
+                  "tripRating": "5.0 (58 Reviews)",
+                  "tripPrice": "₹13,250",
+                  "tripCurrentPrice": "₹10,000",
+                  "tripImage": "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhpbWFsYXlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                },
+                {
+                  "tripName": "Everest Base Camp Trek, Nepal",
+                  "tripRating": "4.7 (158 Reviews)",
+                  "tripPrice": "₹12,050",
+                  "tripCurrentPrice": "₹9,300",
+                  "tripImage": "https://images.unsplash.com/photo-1609488971595-a4c457ee4e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGltYWxheWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                }
+              ]
+            }
+          ]
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  top: -70px;
+  left: -100px;
+  margin: 50px 0;
+}
+.upto {
+  color: aqua;
+  top: 30px;
+}
+.offer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.value {
+  width: 240px;
+  height: 190px;
+  font-size: 150px;
+  background-color: none;
+  color: #fecf24;
+}
+.percent h2 {
+  font-size: 150px;
+}
+.holiday {
+}
+.book {
+}
+
