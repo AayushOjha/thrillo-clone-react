@@ -4,7 +4,8 @@ import { FaUsers } from "react-icons/fa";
 
 export default function FooterH() {
   return (
-    <div className={classes.heroFooter}>
+    <div className={` col-8 md-col-10 sm-col-10 ${classes.heroFooter}`}>
+
       <div className={classes.footItem}>
         <div className={classes.iconBox}>
           <GiAirBalloon className={classes.icon} />

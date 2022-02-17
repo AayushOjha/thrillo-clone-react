@@ -1,6 +1,7 @@
 import classes from "./OneCard.module.css";
 
 export default function OneCard({ name, price, currentPrice, rating, image }) {
+  image=`http://localhost:1337${image}`
   return (
     <div className={classes.gicOuter}>
       <div className={classes.generalImageCard}>

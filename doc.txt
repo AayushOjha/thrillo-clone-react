@@ -30,3 +30,42 @@ Phase 5 -
 
 Phase 6 - 
   # Testing .....
+
+
+
+# graphql query
+
+query{
+  homePage(id: 1){
+    data{
+      attributes{
+        GlobalStylings{
+          theme
+          primeryColor
+          backgroundColor
+        }
+        Header{
+          BrandName
+          Actions{
+            value
+          }
+        }
+        tripRow{
+        	Title
+          Row{
+            tripTitle
+            tripPrice
+            tripRating
+            tripThumbnail{
+              data{
+                attributes{
+                  url
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

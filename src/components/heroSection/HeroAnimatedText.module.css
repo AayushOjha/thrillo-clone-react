@@ -1,4 +1,4 @@
-.cointainer{
+.cointainer {
   width: auto;
   color: #fff;
   margin-bottom: 30px;
@@ -9,16 +9,45 @@
   z-index: 1;
 }
 
-.upperText{
+.upperText {
   font-size: 3.5rem;
   font-weight: 400;
   letter-spacing: -2px;
   line-height: 1.22;
 }
 
-.lowerText{
+.lowerText {
   font-size: 5rem;
   line-height: 1.2;
   font-weight: 600;
 }
 
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .upperText {
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: -2px;
+    line-height: 1.22;
+  }
+
+  .lowerText {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .upperText {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -2px;
+    line-height: 1.22;
+  }
+
+  .lowerText {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+}

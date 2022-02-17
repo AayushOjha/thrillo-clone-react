@@ -7,10 +7,12 @@ export default function DisplayRow({caption,products,theme}) {
   let primeryText = uniStyle.darkerColor;
   let secondaryText = uniStyle.darkColor;
 
-  if (theme == "dark") {
+  if (theme === "dark") {
     primeryText = uniStyle.lighterColor;
     secondaryText = uniStyle.lightColor;
   }
+
+  // console.log(JSON.stringify(products.Row));
 
   return (
     <div className={classes.sectionContainer}>
@@ -19,18 +21,21 @@ export default function DisplayRow({caption,products,theme}) {
       <div className={classes.rowContainer}>
         <div
           className={classes.longDiv}
-          style={{ width: `${220 * 5 + 5 * 15}px` }}
+          style={{ width: `${220 * products.Row.length + products.Row.length  * 10}px` }}
         >
-          {products.map((k, i) => {
+          {products.Row.map((k, i) => {
+            // console.log(k.tripThumbnail.data.attributes.url);
             return (
               <OneCard
                 key={i}
-                name={k.tripName}
-                price={k.tripPrice}
-                currentPrice={k.tripCurrentPrice}
+                name={k.tripTitle}
+                price={k.tripPrice+1000}
+                currentPrice={k.tripPrice}
                 rating={k.tripRating}
-                image={k.tripImage}
+                // rating={"4.5 reviews"}
+                image={k.tripThumbnail.data.attributes.url}
               />
+              // <h3 key={i}>#</h3>
             );
           })}
         </div>
