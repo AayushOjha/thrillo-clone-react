@@ -11,7 +11,7 @@ export default function NavBar() {
   const [navStickey, setnavStickey] = useState(false)
 
   const scrollFunc = () => {
-    console.log(window.scrollY);
+    
     if (window.scrollY >= 64) {
       setnavStickey(true)
       setprimaryColor('black')

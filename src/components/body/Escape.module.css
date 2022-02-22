@@ -7,24 +7,34 @@
 }
 
 .anim {
-  background-color: none;
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
+  /* flex-wrap: wrap; */
   align-items: center;
   scrollbar-width: none;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .perfectEscapeBox {
-  width: 35%;
-  /* height: 350px; */
+  width: 32%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  /* flex: 1 1 300px; */
+  padding-right: 15px;
+}
+
+.cardContainer {
+  width: 63%;
+  /* flex: 1 1 500px; */
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
 }
 
 .escapeText {
@@ -33,22 +43,20 @@
   line-height: 1.2;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  /* margin-bottom: 30px; */
-  /* border-bottom: 2px solid tomato ;
-  border-bottom-width: 60%; */
 }
 
 .escapeText2 {
   color: #777;
-  line-height: 1.2;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
-.longImageCard{
+.longImageCard {
   height: 350px;
-  width: 20%;
+  min-width: 220px;
+  width: 30%;
   text-align: center;
+  margin-right: 10px;
   font-size: 30px;
   border-radius: 10px;
   cursor: pointer;
@@ -56,7 +64,7 @@
 
 .imgInCard {
   height: 100%;
-  width: 100%; 
+  width: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -67,11 +75,80 @@
   border-radius: 5px;
 }
 
-.underLineC{
-  margin-bottom: 30px;
+.underLine {
+  margin-bottom: 25px;
 }
 
-hr{
-  width:60%;
+hr {
+  width: 60%;
   border-top: 5px solid #ff5300;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .anim {
+    flex-direction: column;
+  }
+  .perfectEscapeBox {
+    width: 100%;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  .cardContainer {
+    width: 100%;
+  }
+  .escapeText {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  hr {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .anim {
+    flex-direction: column;
+  }
+  .perfectEscapeBox {
+    width: 100%;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .cardContainer {
+    width: 100%;
+  }
+  .escapeText {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  hr {
+    width: 100%;
+  }
+  .sectionContainer {
+    padding: 30px 20px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .anim {
+    flex-direction: column;
+  }
+  .perfectEscapeBox {
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .cardContainer {
+    width: 100%;
+  }
+  .escapeText {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  hr {
+    width: 100%;
+  }
+  .sectionContainer {
+    padding: 30px 10px;
+  }
 }

@@ -10,12 +10,23 @@
 }
 
 .thrilloLogo {
-  /* width: 210px; */
+  padding: 5px;
   height: 90px;
-  background-image: url("../../assets/ThrillophilliaDark.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("../../assets/ThrillophilliaDark.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: contain; */
+}
+
+.imgLogo {
+  /* height: 100%; */
+  /* width: 100%; */
+  max-width: 100%;
+  height: auto;
+  max-height: 90px;
 }
 
 .logoBar {

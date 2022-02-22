@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+.cointainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .searchTabs {
   width: auto;
   height: 40px;

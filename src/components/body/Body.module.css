@@ -1,7 +1,6 @@
 .contentCointainer {
-  width: 60%;
+  max-width: 1500px;
   height: auto;
-  /* border: 1px solid red; */
   margin: 0 auto;
   padding-left: 100px;
   padding: 50px 0;
