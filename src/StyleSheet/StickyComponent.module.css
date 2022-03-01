@@ -1,0 +1,15 @@
+.Container{
+    width: 690px;
+    /* height: auto; */
+    
+}
+.item{
+    margin: 40px 0px;
+    background-color: #ffffff;
+}
+
+/* .ReviewContiner{
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+} */

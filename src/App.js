@@ -4,6 +4,11 @@ import MiddlePart from "./components/heroSection/MiddlePart";
 import FooterH from "./components/heroSection/FooterH";
 import Body from "./components/body/Body";
 import Footer from "./components/footer/Footer";
+import ProductBanner from './components/ProductBanner';
+import BodyComponent from "./components/BodyComponents"
+import "./App.css"
+
+
 // import data from "./JSON data/data.json";
 import { useQuery, gql } from "@apollo/client"
 
@@ -47,45 +52,49 @@ query{
 
 function App() {
 
-const {loading, error, data} = useQuery(DATAS)
+// const {loading, error, data} = useQuery(DATAS)
 
-if (loading) {
-  return(
-    <h1>loading...</h1>
-  )
-}
-if (error) {
-  console.log("error occored");
-  return(
-    <h1>
-      error
-    </h1>
-  )
-}
+// if (loading) {
+//   return(
+//     <h1>loading...</h1>
+//   )
+// }
+// if (error) {
+//   console.log("error occored");
+//   return(
+//     <h1>
+//       error
+//     </h1>
+//   )
+// }
 
-if (data) {
-  const datar = JSON.stringify(data.homePage.data.attributes)
-  const datax = data.homePage.data.attributes
+// if (data) {
+//   const datar = JSON.stringify(data.homePage.data.attributes)
+//   const datax = data.homePage.data.attributes
   
-  const themeType = datax.GlobalStylings.theme;
-  let color = "#fff";
-  if (themeType === "dark") {
-    color = "#242B2E";
-  }
+//   const themeType = datax.GlobalStylings.theme;
+//   let color = "#fff";
+//   if (themeType === "dark") {
+//     color = "#242B2E";
+//   }
 
   return (
-    <div style={{ backgroundColor:`${color}` }}>
-      <HeroSection bg={themeType}>
-        <NavBar />
-        <MiddlePart />
-        <FooterH />
-      </HeroSection>
-      <Body />
-      <Footer />
+    // <div style={{ backgroundColor:`${color}` }}>
+    //   <HeroSection bg={themeType}>
+    //     <NavBar />
+    //     <MiddlePart />
+    //     <FooterH />
+    //   </HeroSection>
+    //   <Body />
+    //   <Footer />
+    // </div>
+    <div className="ContentOfContainer">
+      <div><ProductBanner /></div>
+      <div className='placedUp'><BodyComponent /></div>
     </div>
   );
 }
   
-}
+
 
 export default App;

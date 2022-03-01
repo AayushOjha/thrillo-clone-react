@@ -1,0 +1,11 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+     background-color: #f6f8fb;
+}
+.order{
+    margin: 20px 0px;
+}

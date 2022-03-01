@@ -1,0 +1,160 @@
+.container{
+    position: relative;
+    border: 1px ridge;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 20px 20px;
+    /* margin: 0px 0px 20px 20px; */
+}
+
+.wrapperHeader{
+    display: flex;
+    align-items: center;
+    /* justify-content: cesnter; */
+    padding: 20px 0px;
+
+}
+
+
+.borderLeft{
+    position: relative;
+    border-left:4px solid #ff5e00;
+    /* top:15%; */
+    height: 30px;
+    /* padding-right: ; */
+}
+
+
+.wrapperHeader h2{
+    padding-left: 40px;
+}
+
+.upperBody{
+    display: flex;
+    padding: 24px 0px;
+    /* justify-content: space-evenly; */
+}
+.leftContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 30px; */
+}
+.rightContent{
+    display: inline-block;
+}
+.content{
+    display: block;
+    padding: 0px 15px;
+    line-height: 30px;
+}
+.prevPrice {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+.currentPrice{
+    display: flex;
+    align-items: flex-end;
+}
+.currentPrice b{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #ff5e00;
+    padding-right: 8px;
+}
+.content h3{
+    font-size: 18px;
+    font-family :sans-serif;
+}
+.content p {
+    font-size: 12px;
+    font-family :sans-serif;
+}
+.content h4{
+    font-size: 14px;
+    font-family: sans-serif;
+    color:#ff5e00
+}
+.smallText{
+    font-size: 12px;
+    font-family:sans-serif;
+}
+.lowerBody{
+    padding: 24px 0px 30px ;
+}
+
+.imageContainer{
+    display: flex;
+    margin: 0 24px ;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.imageContainer img {
+    width:179px;
+    height: 130px;
+    padding: 0px 8px;
+    border-radius: 15px;
+}
+hr {
+    width: 90%;
+}
+.data{
+    position: relative;
+    width: 557px;
+    height: 63px;
+    font-size:14px;
+    font-family: sans-serif;
+    color: #848484;
+    /* padding: 20px 60px; */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.reactIcon{
+    color: green;
+    margin-right: 5px ;
+}.includes{
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px ;
+    font-family: sans-serif;
+    color: #3a3a3a;
+    margin: 10px 0px;
+}
+
+.priceIncludes{
+    display: block;
+    line-height: 24px;
+}
+.priceIncludes h4{
+    padding: 10px 5px;
+
+}
+.hidebtn{
+    font-size: 14px;
+    font-family: sans-serif;
+    color:#ff5e00
+}
+.show{
+    display: contents;
+}
+.hide{
+    display: none;
+}
+
+.data,.priceIncludes,.hidebtn {
+    padding-left: 40px;
+}
+
+.hidebtn , .toggle
+{
+    cursor: pointer;
+}
