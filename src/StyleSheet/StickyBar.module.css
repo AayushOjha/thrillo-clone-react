@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+
+}
+.container p {
+    border: 1px ridge #f0f0f0;
+    /* margin: 10px 30px; */
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.container p:hover {
+    border-bottom: 1px solid #ff5e00;
+}

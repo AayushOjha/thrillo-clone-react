@@ -1,0 +1,51 @@
+.header{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-left: 4px solid #ff5e00;
+    margin: 17px 0px;
+}
+.header p {
+    padding-left: 40px;
+}
+.body{
+    margin-left: 40px;
+}
+.body p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.MapContent{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 10px;
+    /* justify-content: space-around; */
+}
+.dataMap{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    line-height: 24px;
+}
+.locationName{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-right: 8px;
+}
+.locationName:hover{
+    color: #ff5e00;
+}
+.green{
+    color:green;
+    font-size: 25px;
+}
+.yellow{
+    color: #ff5e00;
+    font-size: 25px;
+}
+.red{
+    color: red;
+    font-size: 25px;
+}

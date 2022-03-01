@@ -1,0 +1,55 @@
+.Container{
+    right: 0;
+    position: relative;
+}
+
+.imageContainer{
+    display: flex;
+    position: absolute;
+    background-color: #f6f8fb;
+}
+.header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: none;
+    z-index: 1;
+    backdrop-filter: blur(15px);
+}
+.headerContainer{
+    position: relative;
+    /* background-color: aqua; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+    border-bottom: 2px solid white;
+    border-width: 80%;
+}
+.header img{
+    width: 200px;
+    height: 40px;
+}
+
+.container {
+    padding-right: 10px;
+    width: 70%;
+}
+.container img {
+    /* width :600px */
+}
+.gridImage{
+    display: flex ;
+    flex-wrap: wrap;
+    gap : 5px ;
+    overflow: hidden;
+}
+.gridImage img {
+    width: 230px;;
+    height: 300px;
+    object-fit: fill;
+}

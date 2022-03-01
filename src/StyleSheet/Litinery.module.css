@@ -1,0 +1,103 @@
+.container{
+    position: relative;
+    background-color: #ffffff;
+}
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.borderLeft{
+    position: relative;
+    border-left:4px solid #ff5e00;
+    /* top:20px; */
+    height:40px;
+}
+.title{
+    padding: 20px 0px;
+display: flex;
+flex-direction: column;
+}
+.expandAll{
+color: #ff5e00;
+border: 1px solid #ff5e00;
+padding: 10px 20px;
+border-radius: 8px;
+}
+.contentHeader{
+display: flex;
+align-items: center;
+/* justify-content: ; */
+padding: 5px 10px;
+
+}
+.contentContainer{
+    position: relative;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.day{
+    border: 1px ridge;
+    padding: 10px;
+}
+
+.dropDownIcon{
+    color: #ff5e00;
+}
+
+.contentTitle{
+    display: flex;
+    padding-left: 15px;
+    /* justify-content: space-around; */
+}
+
+.contentBody{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    border-left :1px ridge;
+    margin-left: 40px;
+}
+
+.location{
+display: flex;
+}
+
+.dataBody{
+padding: 10px 30px;
+font-size: 14px;
+font-family: sans-serif;
+color: #3a3a3a;
+line-height: 24px;
+}
+
+.imagesContainer{
+display: flex;
+justify-content: space-evenly;
+
+}
+.imagesContainer img{
+    width: 180px;
+    height: 135px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.collapseOne{
+    cursor: pointer;
+    color:#ff5e00;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.contentWrap{
+    margin-left:30px;
+    padding: 20px 0px;
+}
+.bodyContainer{
+    display: block;
+    margin-left: 90px;
+}
