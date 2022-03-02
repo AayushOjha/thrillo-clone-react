@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.leftContainer {
+  padding-right: 40px;
+}
+
+.leftContainer img {
+  width: 400px;
+  height: 500px;
+  box-shadow: 5px 10px #888888;
+}
+
+.rightContainer {
+  width: 400px;
+  height: 600px;
+  /* box-sha; */
+}
+.rightContainer h1,
+.rightContainer p {
+  padding: 15px;
+  font-family: sans-serif;
+  color: #2f3640;
+}
+
+.rightContainer p {
+  font-size: 20px;
+}

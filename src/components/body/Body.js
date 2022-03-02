@@ -10,7 +10,7 @@ import "./../../responsiveGrid/responsive.css";
 
 const DATAS = gql`
   query {
-    homePage(id: 1) {
+    homePage(id: 3) {
       data {
         attributes {
           GlobalStylings {
