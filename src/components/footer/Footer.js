@@ -5,11 +5,11 @@ import SocilaLine from "./SocialLine";
 import { useQuery, gql } from "@apollo/client";
 
 export default function Footer() {
-  let img = "../../assets/ThrillophilliaDark.png";
+  // let img = "../../assets/ThrillophilliaDark.png";
 
   const query = gql`
     query {
-      homePage(id: 1) {
+      homePage(id: 3) {
         data {
           attributes {
             Footer {
