@@ -1,20 +1,17 @@
 {
   "files": {
-    "main.css": "/thrillo-clone-react/static/css/main.843388ac.css",
-    "main.js": "/thrillo-clone-react/static/js/main.32c91870.js",
+    "main.css": "/thrillo-clone-react/static/css/main.2de142b8.css",
+    "main.js": "/thrillo-clone-react/static/js/main.d7122d2b.js",
     "static/media/imgCal01.jpg": "/thrillo-clone-react/static/media/imgCal01.0cbfd372f6171fad060f.jpg",
     "static/media/imgCal02.jpg": "/thrillo-clone-react/static/media/imgCal02.1034e32b73ef235c1498.jpg",
     "static/media/imgCal03.jpg": "/thrillo-clone-react/static/media/imgCal03.f4d7739875492b3f47d0.jpg",
-    "static/media/tour3.jpg": "/thrillo-clone-react/static/media/tour3.660ddffb12f222a4d25c.jpg",
-    "static/media/tour2.jpg": "/thrillo-clone-react/static/media/tour2.0d9fda759601339d275b.jpg",
     "static/media/thrillophiliaLogo.png": "/thrillo-clone-react/static/media/thrillophiliaLogo.3be56b2aa6edf0ff7552.png",
-    "static/media/tour1.jpg": "/thrillo-clone-react/static/media/tour1.6552f73dbb953f0aaeef.jpg",
     "index.html": "/thrillo-clone-react/index.html",
-    "main.843388ac.css.map": "/thrillo-clone-react/static/css/main.843388ac.css.map",
-    "main.32c91870.js.map": "/thrillo-clone-react/static/js/main.32c91870.js.map"
+    "main.2de142b8.css.map": "/thrillo-clone-react/static/css/main.2de142b8.css.map",
+    "main.d7122d2b.js.map": "/thrillo-clone-react/static/js/main.d7122d2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.843388ac.css",
-    "static/js/main.32c91870.js"
+    "static/css/main.2de142b8.css",
+    "static/js/main.d7122d2b.js"
   ]
 }
